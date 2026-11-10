@@ -1,0 +1,41 @@
+#EXTM3U
+# My personal TV playlist (free, legal channels only)
+# Source: iptv-org public list. If a channel stops working, get the new link from iptv-org.
+
+# ---------- Malaysia ----------
+#EXTINF:-1 tvg-id="Okey.my@SD" tvg-logo="https://i.imgur.com/V2jREQ5.png" http-referrer="https://rtm-player.glueapi.io/" group-title="Malaysia",TV Okey (RTM)
+#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
+https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
+#EXTINF:-1 tvg-id="TV1.my@SD" tvg-logo="https://i.imgur.com/wSyPmiY.png" group-title="Malaysia",TV1 (RTM)
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd
+#EXTINF:-1 tvg-id="TV2.my@SD" tvg-logo="https://i.imgur.com/LGEdeyJ.png" http-referrer="https://rtm-player.glueapi.io/" group-title="Malaysia",TV2 (RTM)
+#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
+#EXTINF:-1 tvg-logo="https://github.com/MIFNtechnology/siaranMy/raw/main/logo/Tv3.png" group-title="Malaysia",TV3
+https://raw.githubusercontent.com/MIFNtechnology/siaranMy/main/channels/Tv3/index.m3u8
+#EXTINF:-1 group-title="Malaysia",Tonton Xtra 5 (720p)
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton5_720p/index.m3u8
+#EXTINF:-1 group-title="Malaysia",Tonton Xtra 5 (480p - low data)
+https://live-xtra-sg1.global.ssl.fastly.net/live-hls/tonton5_480p/index.m3u8
+
+# ---------- News ----------
+#EXTINF:-1 tvg-id="BeritaRTM.my@SD" tvg-logo="https://i.imgur.com/1Xzxsgl.png" http-referrer="https://rtm-player.glueapi.io/" group-title="News",Berita RTM
+#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
+https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+
+# ---------- International News ----------
+#EXTINF:-1 tvg-id="AlJazeera.qa@English" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="International News",Al Jazeera English
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="DW.de@English" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="International News",DW English
+https://amg01644-amg01644c1-amgplt0343.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg01644-amg01644c1-amgplt0343/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCNews.au@Sydney" tvg-logo="https://i.imgur.com/BrW7gk8.png" group-title="International News",ABC News (Australia)
+https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8
+#EXTINF:-1 tvg-id="SkyNewsExtra3.au@SD" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="International News",Sky News Extra (Australia)
+https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
+#EXTINF:-1 tvg-id="ArirangTV.kr@SD" tvg-logo="https://i.imgur.com/Asu5pE9.png" group-title="International News",Arirang TV (Korea)
+http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CGTN.cn@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/960px-CGTN.svg.png" group-title="International News",CGTN (China)
+https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="BeritaSatu.id@SD" tvg-logo="https://i.postimg.cc/6pycF7Vx/300px-IDTV.png" http-referrer="https://www.beritasatu.com/beritasatu-live-streaming" group-title="International News",BeritaSatu (Indonesia)
+#EXTVLCOPT:http-referrer=https://www.beritasatu.com/beritasatu-live-streaming
+https://xtdslboppkkv-pull.bpmedialive.com/live/beritasatu/abr.m3u8
